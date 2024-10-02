@@ -1,6 +1,7 @@
 # IterMiUnet: A lightweight architecture for automatic blood vessel segmentation
 Model Checkpoints to reproduce the results for the journal paper  "IterMiUnet: A lightweight architecture for automatic blood vessel segmentation" [arxiv](https://arxiv.org/abs/2208.01485) [journal](https://link.springer.com/article/10.1007/s11042-023-15433-7)
-
+* Since this is an old work standalone keras 2.2.4 was used while training the models as opposed tf.keras which comes integrated with tensorflow now.
+* The jupyter notebook inside Stare folder can be run using the older version of standalone keras 
 ## Citation
 ```bibtex
 @article{kumar2023itermiunet,
